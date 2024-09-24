@@ -1,0 +1,19 @@
+/* 1440 */
+@media (max-width: 1440px) {
+
+.head__info span:nth-child(1) {
+  top: calc(207 / 1920 * 100vw);
+  left: calc(133 / 1920 * 100vw);
+  }
+
+.head__info span:nth-child(2) {
+  top: calc(611 / 1920 * 100vw);
+  left: calc(48 / 1920 * 100vw);
+  }
+
+.head__info span:nth-child(3) {
+  left: calc(-64 / 1920 * 100vw);
+  bottom: calc(377 / 1920 * 100vw);
+  }
+
+}
