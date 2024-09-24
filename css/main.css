@@ -431,12 +431,23 @@ b, strong {
 
 .head__img-active.top-active {
   top: 0; /* Верхняя позиция */
+  /*-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));*/
   }
 
 .head__img-active.middle-active {
   top: 33.33%; /* Средняя позиция */
+  /*-webkit-mask-image: -webkit-gradient(
+    linear, 
+    left top, 
+    left bottom, 
+    color-stop(0, rgba(0,0,0,0)), /* Верхняя часть градиента прозрачная */
+    /*color-stop(0.15, rgba(0,0,0,1)), /* Плавный переход на 15% */
+    /*color-stop(0.85, rgba(0,0,0,1)), /* Основная непрозрачная часть */
+    /*color-stop(1, rgba(0,0,0,0)) /* Нижняя часть градиента прозрачная */
+  /*);*/
   }
 
 .head__img-active.bottom-active {
   top: 66.66%; /* Нижняя позиция */
+  /*-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,1)));*/
   }
